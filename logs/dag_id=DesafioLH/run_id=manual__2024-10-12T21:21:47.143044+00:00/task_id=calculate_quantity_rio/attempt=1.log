@@ -1,0 +1,19 @@
+[2024-10-12T18:21:55.421-0300] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-12T18:21:55.434-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DesafioLH.calculate_quantity_rio manual__2024-10-12T21:21:47.143044+00:00 [queued]>
+[2024-10-12T18:21:55.442-0300] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DesafioLH.calculate_quantity_rio manual__2024-10-12T21:21:47.143044+00:00 [queued]>
+[2024-10-12T18:21:55.443-0300] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-12T18:21:55.464-0300] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): calculate_quantity_rio> on 2024-10-12 21:21:47.143044+00:00
+[2024-10-12T18:21:55.468-0300] {standard_task_runner.py:72} INFO - Started process 88560 to run task
+[2024-10-12T18:21:55.472-0300] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'DesafioLH', 'calculate_quantity_rio', 'manual__2024-10-12T21:21:47.143044+00:00', '--job-id', '83', '--raw', '--subdir', 'DAGS_FOLDER/desafiolh.py', '--cfg-path', '/tmp/tmpr0ell9el']
+[2024-10-12T18:21:55.473-0300] {standard_task_runner.py:105} INFO - Job 83: Subtask calculate_quantity_rio
+[2024-10-12T18:21:55.518-0300] {task_command.py:467} INFO - Running <TaskInstance: DesafioLH.calculate_quantity_rio manual__2024-10-12T21:21:47.143044+00:00 [running]> on host LAPTOP-9RLTGE5V.
+[2024-10-12T18:21:55.589-0300] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='kaue.oliveira@indicium.tech' AIRFLOW_CTX_DAG_OWNER='Kaue Oliveira' AIRFLOW_CTX_DAG_ID='DesafioLH' AIRFLOW_CTX_TASK_ID='calculate_quantity_rio' AIRFLOW_CTX_EXECUTION_DATE='2024-10-12T21:21:47.143044+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-12T21:21:47.143044+00:00'
+[2024-10-12T18:21:55.589-0300] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-12T18:21:55.622-0300] {logging_mixin.py:190} INFO - Colunas em orders_df: ['Id', 'CustomerId', 'EmployeeId', 'OrderDate', 'RequiredDate', 'ShippedDate', 'ShipVia', 'Freight', 'ShipName', 'ShipAddress', 'ShipCity', 'ShipRegion', 'ShipPostalCode', 'ShipCountry']
+[2024-10-12T18:21:55.637-0300] {logging_mixin.py:190} INFO - Colunas em order_details_df: ['Id', 'OrderId', 'ProductId', 'UnitPrice', 'Quantity', 'Discount']
+[2024-10-12T18:21:55.658-0300] {python.py:240} INFO - Done. Returned value was: None
+[2024-10-12T18:21:55.665-0300] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-12T18:21:55.666-0300] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=DesafioLH, task_id=calculate_quantity_rio, run_id=manual__2024-10-12T21:21:47.143044+00:00, execution_date=20241012T212147, start_date=20241012T212155, end_date=20241012T212155
+[2024-10-12T18:21:55.726-0300] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-12T18:21:55.761-0300] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-12T18:21:55.771-0300] {local_task_job_runner.py:245} INFO - ::endgroup::

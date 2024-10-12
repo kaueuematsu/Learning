@@ -1,0 +1,22 @@
+[2024-10-10T21:16:28.390-0300] {processor.py:186} INFO - Started process (PID=17881) to work on /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-10-10T21:16:28.391-0300] {processor.py:914} INFO - Processing file /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-10-10T21:16:28.393-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:28.393-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-10-10T21:16:28.405-0300] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-10-10T21:16:28.516-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:28.515-0300] {override.py:1901} INFO - Created Permission View: can read on DAG:example_dag_decorator
+[2024-10-10T21:16:28.532-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:28.531-0300] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_dag_decorator
+[2024-10-10T21:16:28.547-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:28.546-0300] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_dag_decorator
+[2024-10-10T21:16:28.569-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:28.568-0300] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_dag_decorator
+[2024-10-10T21:16:28.584-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:28.583-0300] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_dag_decorator
+[2024-10-10T21:16:28.606-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:28.605-0300] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_dag_decorator
+[2024-10-10T21:16:28.623-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:28.623-0300] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_dag_decorator
+[2024-10-10T21:16:28.624-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:28.624-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T21:16:28.644-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:28.643-0300] {dag.py:3262} INFO - Creating ORM DAG for example_dag_decorator
+[2024-10-10T21:16:28.644-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:28.644-0300] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-10-10T21:16:28.671-0300] {processor.py:208} INFO - Processing /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.288 seconds
+[2024-10-10T21:17:35.908-0300] {processor.py:186} INFO - Started process (PID=18362) to work on /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-10-10T21:17:35.910-0300] {processor.py:914} INFO - Processing file /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-10-10T21:17:35.913-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:17:35.912-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-10-10T21:17:35.927-0300] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-10-10T21:17:36.043-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:17:36.043-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T21:17:36.055-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:17:36.055-0300] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-10-10T21:17:36.091-0300] {processor.py:208} INFO - Processing /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.190 seconds

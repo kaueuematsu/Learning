@@ -1,0 +1,29 @@
+[2024-10-10T21:16:00.111-0300] {processor.py:186} INFO - Started process (PID=17720) to work on /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-10-10T21:16:00.112-0300] {processor.py:914} INFO - Processing file /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-10-10T21:16:00.114-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:00.113-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-10-10T21:16:00.120-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-10-10T21:16:00.221-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:00.220-0300] {override.py:1901} INFO - Created Permission View: can read on DAG:tutorial
+[2024-10-10T21:16:00.235-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:00.234-0300] {override.py:1901} INFO - Created Permission View: can edit on DAG:tutorial
+[2024-10-10T21:16:00.245-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:00.245-0300] {override.py:1901} INFO - Created Permission View: can delete on DAG:tutorial
+[2024-10-10T21:16:00.262-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:00.261-0300] {override.py:1901} INFO - Created Permission View: can read on DAG Run:tutorial
+[2024-10-10T21:16:00.272-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:00.271-0300] {override.py:1901} INFO - Created Permission View: can create on DAG Run:tutorial
+[2024-10-10T21:16:00.282-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:00.282-0300] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2024-10-10T21:16:00.292-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:00.292-0300] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2024-10-10T21:16:00.292-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:00.292-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T21:16:00.303-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:00.303-0300] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2024-10-10T21:16:00.311-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:00.310-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-10T21:16:00.333-0300] {processor.py:208} INFO - Processing /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.228 seconds
+[2024-10-10T21:17:06.276-0300] {processor.py:186} INFO - Started process (PID=18187) to work on /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-10-10T21:17:06.278-0300] {processor.py:914} INFO - Processing file /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-10-10T21:17:06.283-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:17:06.282-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-10-10T21:17:06.293-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-10-10T21:17:06.315-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:17:06.315-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T21:17:06.341-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:17:06.341-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-10T21:17:06.375-0300] {processor.py:208} INFO - Processing /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.107 seconds
+[2024-10-10T21:18:03.014-0300] {processor.py:186} INFO - Started process (PID=18493) to work on /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-10-10T21:18:03.015-0300] {processor.py:914} INFO - Processing file /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-10-10T21:18:03.018-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:18:03.018-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-10-10T21:18:03.027-0300] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2024-10-10T21:18:03.044-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:18:03.044-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T21:18:03.075-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:18:03.074-0300] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2024-10-10 00:00:00+00:00, run_after=2024-10-11 00:00:00+00:00
+[2024-10-10T21:18:03.101-0300] {processor.py:208} INFO - Processing /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.093 seconds

@@ -1,0 +1,29 @@
+[2024-10-10T21:15:54.658-0300] {processor.py:186} INFO - Started process (PID=17638) to work on /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-10-10T21:15:54.659-0300] {processor.py:914} INFO - Processing file /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-10-10T21:15:54.662-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:15:54.662-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-10-10T21:15:54.672-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-10-10T21:15:54.823-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:15:54.822-0300] {override.py:1901} INFO - Created Permission View: can read on DAG:example_sensor_decorator
+[2024-10-10T21:15:54.840-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:15:54.839-0300] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_sensor_decorator
+[2024-10-10T21:15:54.852-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:15:54.851-0300] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_sensor_decorator
+[2024-10-10T21:15:54.872-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:15:54.871-0300] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_sensor_decorator
+[2024-10-10T21:15:54.884-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:15:54.884-0300] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_sensor_decorator
+[2024-10-10T21:15:54.897-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:15:54.897-0300] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_sensor_decorator
+[2024-10-10T21:15:54.909-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:15:54.909-0300] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_sensor_decorator
+[2024-10-10T21:15:54.909-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:15:54.909-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T21:15:54.921-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:15:54.920-0300] {dag.py:3262} INFO - Creating ORM DAG for example_sensor_decorator
+[2024-10-10T21:15:54.921-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:15:54.921-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-10-10T21:15:54.950-0300] {processor.py:208} INFO - Processing /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.299 seconds
+[2024-10-10T21:17:02.271-0300] {processor.py:186} INFO - Started process (PID=18172) to work on /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-10-10T21:17:02.272-0300] {processor.py:914} INFO - Processing file /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-10-10T21:17:02.276-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:17:02.275-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-10-10T21:17:02.286-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-10-10T21:17:02.302-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:17:02.301-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T21:17:02.318-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:17:02.317-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-10-10T21:17:02.345-0300] {processor.py:208} INFO - Processing /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.080 seconds
+[2024-10-10T21:17:59.976-0300] {processor.py:186} INFO - Started process (PID=18453) to work on /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-10-10T21:17:59.978-0300] {processor.py:914} INFO - Processing file /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-10-10T21:17:59.980-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:17:59.980-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-10-10T21:17:59.994-0300] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-10-10T21:18:00.015-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:18:00.015-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T21:18:00.037-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:18:00.037-0300] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-10-10T21:18:00.065-0300] {processor.py:208} INFO - Processing /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.095 seconds

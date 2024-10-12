@@ -1,0 +1,29 @@
+[2024-10-10T21:16:20.465-0300] {processor.py:186} INFO - Started process (PID=17789) to work on /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-10-10T21:16:20.466-0300] {processor.py:914} INFO - Processing file /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-10-10T21:16:20.470-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:20.470-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-10-10T21:16:20.484-0300] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-10-10T21:16:20.647-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:20.646-0300] {override.py:1901} INFO - Created Permission View: can read on DAG:example_display_name
+[2024-10-10T21:16:20.665-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:20.664-0300] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_display_name
+[2024-10-10T21:16:20.679-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:20.678-0300] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_display_name
+[2024-10-10T21:16:20.703-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:20.702-0300] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_display_name
+[2024-10-10T21:16:20.718-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:20.717-0300] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_display_name
+[2024-10-10T21:16:20.734-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:20.734-0300] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_display_name
+[2024-10-10T21:16:20.751-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:20.750-0300] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_display_name
+[2024-10-10T21:16:20.751-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:20.751-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T21:16:20.769-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:20.769-0300] {dag.py:3262} INFO - Creating ORM DAG for example_display_name
+[2024-10-10T21:16:20.770-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:16:20.770-0300] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-10-10T21:16:20.804-0300] {processor.py:208} INFO - Processing /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.350 seconds
+[2024-10-10T21:17:27.276-0300] {processor.py:186} INFO - Started process (PID=18330) to work on /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-10-10T21:17:27.278-0300] {processor.py:914} INFO - Processing file /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-10-10T21:17:27.280-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:17:27.280-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-10-10T21:17:27.288-0300] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-10-10T21:17:27.306-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:17:27.306-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T21:17:27.320-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:17:27.320-0300] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-10-10T21:17:27.349-0300] {processor.py:208} INFO - Processing /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.081 seconds
+[2024-10-10T21:18:27.221-0300] {processor.py:186} INFO - Started process (PID=18684) to work on /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-10-10T21:18:27.223-0300] {processor.py:914} INFO - Processing file /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-10-10T21:18:27.227-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:18:27.226-0300] {dagbag.py:588} INFO - Filling up the DagBag from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-10-10T21:18:27.239-0300] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py
+[2024-10-10T21:18:27.256-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:18:27.256-0300] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-10T21:18:27.277-0300] {logging_mixin.py:190} INFO - [2024-10-10T21:18:27.277-0300] {dag.py:4180} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-10-10T21:18:27.314-0300] {processor.py:208} INFO - Processing /home/kaueoliveira/desafiolh/airflow_tooltorial/venv/lib/python3.12/site-packages/airflow/example_dags/example_display_name.py took 0.102 seconds
